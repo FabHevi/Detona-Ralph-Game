@@ -47,6 +47,7 @@ function resetGame() {
     
 }
 
+/* Feature Vida */
 function lifeCount() {
     state.values.currentLife--;
     state.view.lives.textContent = state.values.currentLife;
